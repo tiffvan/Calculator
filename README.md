@@ -1,7 +1,7 @@
-# Moody
+# Calculator
 
 
-WHAT IS THIS APP??
+This is a simple calculator that can help you with all your small calculation needs. A bonus feature being that you can veiw your history of the calculations that you have made.s
 
 The process I took of making the app:
 #1 Create a project in Xcode
