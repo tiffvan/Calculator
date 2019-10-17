@@ -31,10 +31,16 @@ class ViewController: UIViewController {
                 case .plus : result = subTotal! + Int(labelDisplay.text!)!
                 case .subtract : result = subTotal! - Int(labelDisplay.text!)!
                 case .multiply : result = subTotal! * Int(labelDisplay.text!)!
-                case .divide : result = subTotal! / Int(labelDisplay.text!)!
+                case .divide : if Int(labelDisplay.text!)! == 0 {
+                    labelDisplay.text = "Error"
+                } else {result = subTotal! / Int(labelDisplay.text!)!}
+        
             }
         }
-        labelDisplay.text = "\(result!)"
+        
+        if let result = result {
+            labelDisplay.text = "\(result)"
+        }
         subTotal = nil
         firstValue = true
     }
@@ -51,15 +57,22 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonDivide(_ sender: UIButton) {
+        if Int(labelDisplay.text!)! == 0 {
+            labelDisplay.text = "Error"
+        } else {
+            
+        
         if let currentSubTotal = subTotal {
             subTotal = Int(labelDisplay.text!)! / currentSubTotal
             
         } else {
             subTotal = Int(labelDisplay.text!)!
         }
+            
         lastOperator = operatorType.divide
         firstValue = true
         labelDisplay.text = "\(subTotal!)"
+            }
     }
     
     @IBAction func buttonMinus(_ sender: UIButton) {
@@ -89,10 +102,6 @@ class ViewController: UIViewController {
             labelDisplay.text = "0"
         } else {
             labelDisplay.text = labelDisplay.text! + "0"
-        }
-        
-        if firstValue == false {
-            labelDisplay.text = "Error"
         }
     }
     
