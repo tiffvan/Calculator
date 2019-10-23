@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //Store
+//    UserDefaults.standard.set("Anand", forKey: "name")
+    
+    //Retrieve
+//    UserDefaults.standard.string(forKey: "Key")
+    
+    //Remove
+//    UserDefaults.standard.removeObject(forKey: "Key")
+    
     var firstValue = true
     var subTotal: Int?
        
@@ -21,6 +30,8 @@ class ViewController: UIViewController {
     }
     
     var lastOperator: operatorType?
+    
+    var equations: [String] = []
     
     @IBOutlet weak var labelDisplay: UILabel!
     
@@ -40,7 +51,10 @@ class ViewController: UIViewController {
         
         if let result = result {
             labelDisplay.text = "\(result)"
+            self.equations.append(String(result))
+            UserDefaults.standard.set(equations, forKey: "equations")
         }
+        
         subTotal = nil
         firstValue = true
     }
@@ -191,6 +205,10 @@ class ViewController: UIViewController {
         firstValue = true
     }
     
+    @IBAction func historyTap(_ sender: Any) {
+        performSegue(withIdentifier: "toHistory", sender: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         labelDisplay.text = "0"
@@ -198,6 +216,15 @@ class ViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "toHistory" {
+//            if let viewController = self.presentingViewController as? HistoryViewController {
+//                viewController.historyItems = self.equations
+//                viewController.tableView.reloadData()
+//            }
+//        }
     }
 }
 
