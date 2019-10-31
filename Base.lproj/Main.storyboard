@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMA-yu-mPn">
-                                <rect key="frame" x="42" y="529" width="65" height="65"/>
+                                <rect key="frame" x="42" y="524" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="1"/>
                                 <connections>
@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KW3-mJ-2n6">
-                                <rect key="frame" x="220" y="529" width="65" height="65"/>
+                                <rect key="frame" x="220" y="524" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="3"/>
                                 <connections>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Eb-fc-sd8">
-                                <rect key="frame" x="308" y="343" width="50" height="50"/>
+                                <rect key="frame" x="315" y="252" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="plus"/>
                                 <connections>
@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLn-bS-REH">
-                                <rect key="frame" x="131" y="529" width="65" height="65"/>
+                                <rect key="frame" x="131" y="524" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="2"/>
                                 <connections>
@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOL-8A-01X">
-                                <rect key="frame" x="42" y="436" width="65" height="65"/>
+                                <rect key="frame" x="42" y="431" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="4"/>
                                 <connections>
@@ -60,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Afx-Vb-KVT">
-                                <rect key="frame" x="220" y="436" width="65" height="65"/>
+                                <rect key="frame" x="220" y="431" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="6"/>
                                 <connections>
@@ -68,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJT-Ab-mAF">
-                                <rect key="frame" x="308" y="436" width="50" height="50"/>
+                                <rect key="frame" x="316" y="345" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="minus"/>
                                 <connections>
@@ -76,7 +76,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2O-hB-aFf">
-                                <rect key="frame" x="131" y="436" width="65" height="65"/>
+                                <rect key="frame" x="131" y="431" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="5"/>
                                 <connections>
@@ -84,7 +84,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vj9-a4-Nvs">
-                                <rect key="frame" x="42" y="343" width="65" height="65"/>
+                                <rect key="frame" x="42" y="336" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="7"/>
                                 <connections>
@@ -92,7 +92,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlp-LK-6Xj">
-                                <rect key="frame" x="220" y="343" width="65" height="65"/>
+                                <rect key="frame" x="220" y="336" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="9"/>
                                 <connections>
@@ -100,7 +100,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4n-5A-D5h">
-                                <rect key="frame" x="308" y="529" width="50" height="50"/>
+                                <rect key="frame" x="316" y="438" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="times"/>
                                 <connections>
@@ -108,31 +108,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waz-bv-FxT">
-                                <rect key="frame" x="131" y="343" width="65" height="65"/>
+                                <rect key="frame" x="131" y="336" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="8"/>
                                 <connections>
                                     <action selector="buttonEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xy7-0y-LsO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMv-I8-kIC">
-                                <rect key="frame" x="42" y="622" width="65" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="C"/>
-                                <connections>
-                                    <action selector="buttonClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dxo-XU-qNw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39q-JX-C6x">
-                                <rect key="frame" x="220" y="622" width="50" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="equals"/>
-                                <connections>
-                                    <action selector="buttonEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9F-tC-c8m"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyE-ty-A1J">
-                                <rect key="frame" x="308" y="622" width="50" height="50"/>
+                                <rect key="frame" x="316" y="531" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="divide"/>
                                 <connections>
@@ -140,9 +124,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5O-VA-2fc">
-                                <rect key="frame" x="131" y="622" width="65" height="65"/>
+                                <rect key="frame" x="131" y="615" width="154" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="0"/>
+                                <state key="normal" image="zero"/>
                                 <connections>
                                     <action selector="buttonZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2a8-rh-jb8"/>
                                 </connections>
@@ -155,13 +139,53 @@
                                     <action selector="historyTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4s1-ja-m5k"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39q-JX-C6x">
+                                <rect key="frame" x="316" y="622" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="equalsPink"/>
+                                <connections>
+                                    <action selector="buttonEquals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9F-tC-c8m"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tw-fe-d2d">
-                                <rect key="frame" x="20" y="134" width="374" height="150"/>
+                                <rect key="frame" x="20" y="83" width="374" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="90"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLK-rR-Cua">
+                                <rect key="frame" x="42" y="245" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MS"/>
+                                <connections>
+                                    <action selector="memSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tqz-P4-Zy4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIO-5u-l17">
+                                <rect key="frame" x="131" y="245" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MP"/>
+                                <connections>
+                                    <action selector="memRecall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iEk-cc-6Ee"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2a1-lG-dY5">
+                                <rect key="frame" x="220" y="245" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="MC"/>
+                                <connections>
+                                    <action selector="memClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JcA-jt-N8Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qMv-I8-kIC">
+                                <rect key="frame" x="42" y="615" width="65" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="C"/>
+                                <connections>
+                                    <action selector="buttonClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dxo-XU-qNw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.043137254901960784" green="0.47450980392156861" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -184,8 +208,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient1" translatesAutoresizingMaskIntoConstraints="NO" id="Ih9-WY-wcw">
-                                <rect key="frame" x="-192" y="-170" width="799" height="1077"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient2" translatesAutoresizingMaskIntoConstraints="NO" id="Ih9-WY-wcw">
+                                <rect key="frame" x="-192" y="-180" width="799" height="1077"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inr-K5-3bA">
@@ -251,7 +275,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="0" width="300" height="300"/>
         <image name="1" width="300" height="300"/>
         <image name="2" width="300" height="300"/>
         <image name="3" width="300" height="300"/>
@@ -263,12 +286,17 @@
         <image name="9" width="300" height="300"/>
         <image name="C" width="300" height="300"/>
         <image name="History" width="333.33334350585938" height="125"/>
+        <image name="MC" width="300" height="300"/>
+        <image name="MP" width="300" height="300"/>
+        <image name="MS" width="300" height="300"/>
         <image name="clear2" width="666.66668701171875" height="250"/>
         <image name="divide" width="170.66667175292969" height="170.66667175292969"/>
-        <image name="equals" width="170.66667175292969" height="170.66667175292969"/>
+        <image name="equalsPink" width="170.66667175292969" height="170.66667175292969"/>
         <image name="gradient1" width="333.33334350585938" height="686.33331298828125"/>
+        <image name="gradient2" width="333.33334350585938" height="686.33331298828125"/>
         <image name="minus" width="170.66667175292969" height="170.66667175292969"/>
         <image name="plus" width="170.66667175292969" height="170.66667175292969"/>
         <image name="times" width="170.66667175292969" height="170.66667175292969"/>
+        <image name="zero" width="333.33334350585938" height="125"/>
     </resources>
 </document>

@@ -10,12 +10,16 @@ The process I took of making the app:
 #4 Create a function to show "Error" when a number is divided by zero as that is not possible.
 #5 Create a tableview to show the history of equation answers
 #6 Create functions to save answers to the History screen in the tableview
+#6 Create functions for memory save, recall and clear
 
 
 Features:
 
 #1 Doing math Equations
-- Image_1_Equations in main project folder
+- 1_opening_screen
+- 2_with_numbers
 
 #2 Saving the answers to the History screen
-- IImage_2_History in main project folder
+- 2_history_screen
+
+#3 Memory functions, such as save and recall

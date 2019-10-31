@@ -10,15 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    //Store
-//    UserDefaults.standard.set("Anand", forKey: "name")
-    
-    //Retrieve
-//    UserDefaults.standard.string(forKey: "Key")
-    
-    //Remove
-//    UserDefaults.standard.removeObject(forKey: "Key")
-    
     var firstValue = true
     var subTotal: Int?
        
@@ -53,12 +44,14 @@ class ViewController: UIViewController {
             labelDisplay.text = "\(result)"
             self.equations.append(String(result))
             UserDefaults.standard.set(equations, forKey: "equations")
+            
         }
         
         subTotal = nil
         firstValue = true
     }
     
+    //MULTIPLY
     @IBAction func buttonMultiply(_ sender: UIButton) {
         if let currentSubTotal = subTotal {
             subTotal = Int(labelDisplay.text!)! * currentSubTotal
@@ -70,6 +63,7 @@ class ViewController: UIViewController {
         labelDisplay.text = "\(subTotal!)"
     }
     
+    //DIVIDE
     @IBAction func buttonDivide(_ sender: UIButton) {
         if Int(labelDisplay.text!)! == 0 {
             labelDisplay.text = "Error"
@@ -89,6 +83,7 @@ class ViewController: UIViewController {
             }
     }
     
+    //MINUS
     @IBAction func buttonMinus(_ sender: UIButton) {
         if let currentSubTotal = subTotal {
             subTotal = Int(labelDisplay.text!)! - currentSubTotal
@@ -100,6 +95,7 @@ class ViewController: UIViewController {
         labelDisplay.text = "\(subTotal!)"
     }
     
+    //PLUS
     @IBAction func buttonPlus(_ sender: UIButton) {
         if let currentSubTotal = subTotal {
             subTotal = Int(labelDisplay.text!)! + currentSubTotal
@@ -110,7 +106,8 @@ class ViewController: UIViewController {
         firstValue = true
         labelDisplay.text = "\(subTotal!)"
     }
-    
+
+    //ZERO
     @IBAction func buttonZero(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "0"
@@ -119,6 +116,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //ONE
     @IBAction func buttonOne(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "1"
@@ -128,6 +126,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //TWO
     @IBAction func buttonTwo(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "2"
@@ -137,6 +136,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //THREE
     @IBAction func buttonThree(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "3"
@@ -146,6 +146,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //FOUR
     @IBAction func buttonFour(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "4"
@@ -155,6 +156,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //FIVE
     @IBAction func buttonFive(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "5"
@@ -164,6 +166,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //SIX
     @IBAction func buttonSix(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "6"
@@ -173,6 +176,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //SEVEN
     @IBAction func buttonSeven(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "7"
@@ -182,6 +186,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //EIGHT
     @IBAction func buttonEight(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "8"
@@ -191,6 +196,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //NINE
     @IBAction func buttonNine(_ sender: UIButton) {
         if firstValue {
             labelDisplay.text = "9"
@@ -200,11 +206,13 @@ class ViewController: UIViewController {
         }
     }
     
+    //CLEAR
     @IBAction func buttonClear(_ sender: UIButton) {
         labelDisplay.text = "0"
         firstValue = true
     }
     
+    //HISTORY
     @IBAction func historyTap(_ sender: Any) {
         performSegue(withIdentifier: "toHistory", sender: nil)
     }
@@ -214,17 +222,38 @@ class ViewController: UIViewController {
         labelDisplay.text = "0"
     }
     
+    //MEMORY SAVE
+    @IBAction func memSave(_ sender: UIButton) {
+        UserDefaults.standard.set(labelDisplay.text, forKey: "memory")
+    }
+    
+    //MEMORY RECALL
+    @IBAction func memRecall(_ sender: UIButton) {
+        if let memAnswer = UserDefaults.standard.string(forKey: "memory") {
+//            print(memAnswer)
+            labelDisplay.text = memAnswer
+        }
+    }
+    
+    // MEMORY CLEAR
+    @IBAction func memClear(_ sender: UIButton) {
+        let dictionary = UserDefaults.standard.dictionaryRepresentation()
+        dictionary.keys.forEach { key in
+            UserDefaults.standard.removeObject(forKey: "memory")
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //        if segue.identifier == "toHistory" {
 //            if let viewController = self.presentingViewController as? HistoryViewController {
 //                viewController.historyItems = self.equations
 //                viewController.tableView.reloadData()
 //            }
 //        }
-    }
+//    }
 }
 
