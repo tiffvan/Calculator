@@ -16,10 +16,10 @@ The process I took of making the app:
 Features:
 
 #1 Doing math Equations
-- 1_opening_screen
-- 2_with_numbers
+#1_opening_screen
 
+#2_with_numbers
 #2 Saving the answers to the History screen
-- 2_history_screen
 
+#2_history_screen
 #3 Memory functions, such as save and recall

@@ -165,7 +165,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIO-5u-l17">
                                 <rect key="frame" x="131" y="245" width="65" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="MP"/>
+                                <state key="normal" image="MR"/>
                                 <connections>
                                     <action selector="memRecall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iEk-cc-6Ee"/>
                                 </connections>
@@ -287,7 +287,7 @@
         <image name="C" width="300" height="300"/>
         <image name="History" width="333.33334350585938" height="125"/>
         <image name="MC" width="300" height="300"/>
-        <image name="MP" width="300" height="300"/>
+        <image name="MR" width="300" height="300"/>
         <image name="MS" width="300" height="300"/>
         <image name="clear2" width="666.66668701171875" height="250"/>
         <image name="divide" width="170.66667175292969" height="170.66667175292969"/>
