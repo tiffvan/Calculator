@@ -246,14 +246,5 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "toHistory" {
-//            if let viewController = self.presentingViewController as? HistoryViewController {
-//                viewController.historyItems = self.equations
-//                viewController.tableView.reloadData()
-//            }
-//        }
-//    }
 }
 
